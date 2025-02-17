@@ -1,12 +1,17 @@
+# Contact Importer
 
-### Key Sections in the README:
+This project allows you to import contacts from an XML file into a database. Each contact has a name and phone number, and the data is saved into the `contacts` table in your database.
 
-- **Project Description**: A summary of what the project does.
-- **Installation**: Instructions for setting up the project on a local machine.
-- **Usage**: Details on how to use the contact import feature.
-- **Code Explanation**: A high-level overview of the code functionality.
-- **Example**: A sample XML format for the file upload.
-- **Contributing**: Encouragement for others to contribute.
-- **License**: Details about the project's license.
+## Features
 
-Feel free to modify this `README.md` file as needed to suit your project better!
+- **File Upload**: Allows users to upload an XML file.
+- **CRUD**: create update and delete contacts.
+-
+## Requirements
+
+- PHP >= 8.3
+- Laravel >= 11.x
+- MySQL (or any other database)
+- Composer
+
+
